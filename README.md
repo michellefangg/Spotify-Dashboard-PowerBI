@@ -3,6 +3,11 @@ Interactive Power BI dashboard analyzing Spotify streaming data from 2019 to 202
 
 ![Preview](images/screenshot.png)
 
+## Open the Report
+- **Download the Power BI template (.pbit):**  
+  [Spotify-PowerBI.pbit](Spotify-PowerBI.pbit?raw=1)
+- Open it in **Power BI Desktop**, then **Refresh**.
+
 ## Credits & Licenses
 
 - **Deneb gauge (circular KPI)**
