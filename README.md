@@ -18,18 +18,28 @@ Interactive Power BI dashboard analyzing Spotify streaming data from 2019 to 202
 
 ## Credits & Licenses
 
-- **Deneb gauge (circular KPI)**
-  - Adapted from: “Convert Vega/Deneb gauge to work in Power BI” by *davidebacci* and other Stack Overflow users  
-    https://stackoverflow.com/questions/75881301/convert-vega-deneb-gauge-to-work-in-powerbi  
-  - License: **CC BY-SA 4.0** (ShareAlike) – https://creativecommons.org/licenses/by-sa/4.0/  
-  - Changes made: *describe your edits (e.g., colors, field names, min/max logic, sizing).*
+### Circular KPI Gauge (Deneb/Vega)
+- **Source:** “Convert Vega/Deneb gauge to work in Power BI” by **davidebacci** & contributors — https://stackoverflow.com/questions/75881301/convert-vega-deneb-gauge-to-work-in-powerbi  
+- **License:** **CC BY-SA 4.0** — https://creativecommons.org/licenses/by-sa/4.0/  
+- **Changes (mine):**
+  - Bound to my measure `_Percent_popularity_val` via `data('dataset')` and rounded value.
+  - Spotify-style green gradient (`#036d19 → #1DB954`) and linear color scale for the foreground arc.
+  - Center labels: large % value (font 70) and caption “Energy” (font 30).
+  - Fixed canvas (width/height 350, padding 50), ring thickness via innerRadius offsets, arc padAngle.
+  - Kept timer-based refresh so it respects current slicers.
+- See `NOTICE-STACKOVERFLOW` for attribution details; this gauge spec is CC BY-SA 4.0.
 
-- **Heatmap with bars (Deneb template)**
-  - Base template: **PowerBI-tips/Deneb-Templates** – “heatmap with bars – red themed.json”  
-    https://github.com/PowerBI-tips/Deneb-Templates  
-  - Author noted in template: *Injae Park* (as shown in the template metadata).
-  - **License:** Check the repository’s license file. If no license is stated, treat it as “all rights reserved” and prefer linking to the template rather than redistributing it verbatim.
-  - Changes made: *describe your edits (e.g., re-mapped fields, colors, axis order, step sizes).*
+### Heatmap with Bars (Deneb)
+- **Base template:** PowerBI-tips / Deneb-Templates — *“heatmap with bars – red themed.json”*  
+  https://github.com/PowerBI-tips/Deneb-Templates/blob/main/templates/heatmap%20with%20bars%20-%20red%20themed.json  
+  *(Author in template metadata: Injae Park)*
+- **Changes (mine):**
+  - Mapped fields to my model: `Month`, `Day of Week` (Mon–Sun), and measure `_Track` (count).
+  - Theme colors via `pbiColor(...)` and `pbiColorLinear`; removed legend.
+  - Fixed month order (Jan→Dec) and weekday order (Mon→Sun); labels angle 0, ticks/domains hidden.
+  - Adjusted layout for small tile: top bar `height: 30`, heatmap `step` sizes `25/30`, spacing 15.
+  - Tooltips limited to Month / Day of Week / Track count.
+- (Linked to original template rather than redistributing verbatim.)
 
 > The Deneb gauge is adapted from Stack Overflow and is licensed **CC BY-SA 4.0**.  
 > See `NOTICE-STACKOVERFLOW` for attribution and details.
