@@ -15,3 +15,6 @@ Interactive Power BI dashboard analyzing Spotify streaming data from 2019 to 202
   - Author noted in template: *Injae Park* (as shown in the template metadata).
   - **License:** Check the repository’s license file. If no license is stated, treat it as “all rights reserved” and prefer linking to the template rather than redistributing it verbatim.
   - Changes made: *describe your edits (e.g., re-mapped fields, colors, axis order, step sizes).*
+
+> The Deneb gauge is adapted from Stack Overflow and is licensed **CC BY-SA 4.0**.  
+> See `NOTICE-STACKOVERFLOW` for attribution and details.
