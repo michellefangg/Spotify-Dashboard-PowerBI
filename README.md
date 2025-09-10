@@ -8,6 +8,14 @@ Interactive Power BI dashboard analyzing Spotify streaming data from 2019 to 202
   [Spotify-PowerBI.pbit](Spotify-PowerBI.pbit?raw=1)
 - Open it in **Power BI Desktop**, then **Refresh**.
 
+## Features
+- KPI cards for total streams and average streams per year
+- Heatmap: releases by **Month × Day of Week** (Deneb / Vega-Lite)
+- Circular KPI gauge for track energy (Deneb)
+- Bar chart: **Top tracks by number of streams**
+- Timeline: **Track releases over time**
+- Slicers for Date, Track, Artist, and Year shortcuts
+
 ## Credits & Licenses
 
 - **Deneb gauge (circular KPI)**
@@ -25,3 +33,12 @@ Interactive Power BI dashboard analyzing Spotify streaming data from 2019 to 202
 
 > The Deneb gauge is adapted from Stack Overflow and is licensed **CC BY-SA 4.0**.  
 > See `NOTICE-STACKOVERFLOW` for attribution and details.
+
+## Project Structure
+.
+├─ images/
+│  └─ screenshot.png
+├─ Spotify-PowerBI.pbit                # or report/Spotify-PowerBI.pbit
+├─ LICENSE
+├─ NOTICE-STACKOVERFLOW
+└─ README.md
