@@ -33,12 +33,3 @@ Interactive Power BI dashboard analyzing Spotify streaming data from 2019 to 202
 
 > The Deneb gauge is adapted from Stack Overflow and is licensed **CC BY-SA 4.0**.  
 > See `NOTICE-STACKOVERFLOW` for attribution and details.
-
-## Project Structure
-.
-├─ images/
-│  └─ screenshot.png
-├─ Spotify-PowerBI.pbit                # or report/Spotify-PowerBI.pbit
-├─ LICENSE
-├─ NOTICE-STACKOVERFLOW
-└─ README.md
