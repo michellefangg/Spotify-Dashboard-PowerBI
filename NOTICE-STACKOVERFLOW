@@ -1,0 +1,8 @@
+Portions of this repository (Deneb gauge) are adapted from Stack Overflow content:
+https://stackoverflow.com/questions/75881301/convert-vega-deneb-gauge-to-work-in-powerbi
+by davidebacci and other contributors.
+
+Licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0):
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Changes made: mapped fields to my dataset; adjusted colors, min/max, and sizing.
