@@ -5,14 +5,14 @@ Interactive Power BI dashboard analyzing Spotify streaming data from 2019 to 202
 
 An interactive Power BI dashboard analyzing **Spotify’s most streamed tracks and artists**. Built using Spotify API data and external sources, the dashboard highlights trends across time, genres, and popularity.  
 
-### 🔧 Dashboard Interactivity  
+### Dashboard Interactivity  
 - **Date slicer** → filter streams by custom date range  
 - **Track slicer** → select specific songs to analyze  
 - **Artist slicer** → drill down by artist  
 - **Year selector** → toggle across multiple years (2019–2024)  
 - **Reset button** → clear filters and return to full view  
 
-### 📊 Key Visuals  
+### Key Visuals  
 - **Highlight card** → shows selected track, artist, and total streams  
 - **KPI card** → average streams per year (e.g., 669.39M)  
 - **Heatmap** → streams by month + day of week  
@@ -20,8 +20,6 @@ An interactive Power BI dashboard analyzing **Spotify’s most streamed tracks a
 - **Bar chart** → top tracks ranked by number of streams  
 - **Line chart** → track popularity over time (release date trends)  
 - **Album artwork tile** → dynamically updates with chosen track  
-
-🚀 *Goal*: Showcase advanced Power BI techniques (DAX measures, custom visuals, design elements) to transform raw streaming data into actionable insights.
 
 ![Preview](images/screenshot.png)
 
