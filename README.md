@@ -1,25 +1,24 @@
 # 🎵 PowerBI-Spotify-Dashboard
-Interactive Power BI dashboard analyzing Spotify streaming data from 2019 to 2024
+Interactive Power BI dashboard analyzing Spotify streaming data (2019–2024).
 
 ## 🎧 Spotify Streaming Dashboard  
 
-An interactive Power BI dashboard analyzing **Spotify’s most streamed tracks and artists**. Built using Spotify API data and external sources, the dashboard highlights trends across time, genres, and popularity.  
+An interactive Power BI dashboard analyzing **Spotify’s most streamed tracks and artists**. Built using Spotify API data and external sources.
 
-### Dashboard Interactivity  
+### Dashboard Interactivity
 - **Date slicer** → filter streams by custom date range  
 - **Track slicer** → select specific songs to analyze  
 - **Artist slicer** → drill down by artist  
 - **Year selector** → toggle across multiple years (2019–2024)  
 - **Reset button** → clear filters and return to full view  
 
-### Key Visuals  
-- **Highlight card** → shows selected track, artist, and total streams  
-- **KPI card** → average streams per year (e.g., 669.39M)  
-- **Heatmap** → streams by month + day of week  
-- **Gauge chart** → energy level of a track (e.g., 64%)  
-- **Bar chart** → top tracks ranked by number of streams  
-- **Line chart** → track popularity over time (release date trends)  
-- **Album artwork tile** → dynamically updates with chosen track  
+### Features & Visuals
+- KPI cards for **total streams** and **average streams per year**  
+- Heatmap: releases by **Month × Day of Week** *(Deneb / Vega-Lite)*  
+- Circular KPI gauge for **track energy** *(Deneb custom visual)*  
+- Bar chart: **Top tracks by total streams**  
+- Line chart: **Track popularity / releases over time**  
+- Dynamic **album artwork tile** that updates with the current selection  
 
 ![Preview](images/screenshot.png)
 
@@ -28,13 +27,6 @@ An interactive Power BI dashboard analyzing **Spotify’s most streamed tracks a
   [Spotify-PowerBI.pbit](Spotify-PowerBI.pbit?raw=1)
 - Open it in **Power BI Desktop**, then **Refresh**.
 
-## Features
-- KPI cards for total streams and average streams per year
-- Heatmap: releases by **Month × Day of Week** (Deneb / Vega-Lite)
-- Circular KPI gauge for track energy (Deneb)
-- Bar chart: **Top tracks by number of streams**
-- Timeline: **Track releases over time**
-- Slicers for Date, Track, Artist, and Year shortcuts
 
 ## Credits & Licenses
 
