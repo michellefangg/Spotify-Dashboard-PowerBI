@@ -1,7 +1,7 @@
 # 🎵 PowerBI-Spotify-Dashboard
 Interactive Power BI dashboard analyzing Spotify streaming data from 2019 to 2024
 
-- Most streamed tracks and artists of 2023  
+- Most streamed tracks and artists from 2019 to 2024
 - Distribution of streams across genres, release years, and popularity  
 - User-friendly dashboards with filters, album artwork, and trend analysis 
 
