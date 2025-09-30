@@ -27,7 +27,7 @@ The dataset includes track metadata, artist details, popularity scores, release 
 
 ![Preview](images/screenshot.png)
 
-## Open the Report
+## View the report
 - **Download the Power BI template (.pbit):**  
   [Spotify-PowerBI.pbit](Spotify-PowerBI.pbit?raw=1)
 - Open it in **Power BI Desktop**, then **Refresh**.
