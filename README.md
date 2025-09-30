@@ -2,7 +2,7 @@
 
 An interactive Power BI dashboard analyzing **Spotify’s most streamed tracks and artists** from 2019-2024. Built using Spotify API data and external sources. \
 \
-**Download:** [Spotify-PowerBI.pbit](Spotify-PowerBI.pbit?raw=1)
+**Download**: [Spotify-PowerBI.pbit](Spotify-PowerBI.pbit?raw=1)
 
 ### Dataset
 This dashboard uses the **[Top Spotify Songs 2024 dataset](https://www.kaggle.com/code/nelgiriyewithana/an-introduction-to-top-spotify-songs-2024)** from Kaggle.  
