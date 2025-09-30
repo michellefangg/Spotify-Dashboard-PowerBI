@@ -1,5 +1,6 @@
 # 🎵 PowerBI-Spotify-Dashboard
 Interactive Power BI dashboard analyzing Spotify streaming data (2019–2024).
+[Download Spotify-PowerBI.pbit](Spotify-PowerBI.pbit?raw=1)
 
 ## 🎧 Spotify Streaming Dashboard  
 
@@ -26,11 +27,6 @@ The dataset includes track metadata, artist details, popularity scores, release 
 - Dynamic **album artwork tile** that updates with the current selection  
 
 ![Preview](images/screenshot.png)
-
-## View the report
-- **Download the Power BI template (.pbit):**  
-  [Spotify-PowerBI.pbit](Spotify-PowerBI.pbit?raw=1)
-- Open it in **Power BI Desktop**, then **Refresh**.
 
 
 ## Credits & Licenses
