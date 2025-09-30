@@ -1,6 +1,6 @@
 # 🎵 PowerBI-Spotify-Dashboard
 
-An interactive Power BI dashboard analyzing **Spotify’s most streamed tracks and artists** from 2019-2024. Built using Spotify API data and external sources.
+An interactive Power BI dashboard analyzing **Spotify’s most streamed tracks and artists** from 2019-2024. Built using Spotify API data and external sources. \
 Download: [Spotify-PowerBI.pbit](Spotify-PowerBI.pbit?raw=1)
 
 ### Dataset
